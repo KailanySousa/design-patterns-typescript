@@ -4,13 +4,17 @@
 
 ## Exemplo aplicado
 
-Neste exemplo, o problema a ser resolvido é evoluir a aplicação desenvolvida na seção Factory Method para que além de ter tipos diferentes de veículos, exista também tipos diferentes de clientes. Levando em consideração que nada do que já está implementado pare de funcionar.
+[Em construção]
 
 ## Como executar
 
 * Na raiz da pasta ***factory-method***, executar `npm i`
 * Depois, para rodar o projeto, executar `npm run dev`
-    * Sem passar nenhum argumento, no console será exibida a seguinte mensagem: `Informe o tipo de entrega`
-    * Execute `npm run dev -- --uber` para que as implementações específicas para carros sejam executadas
-    * Execute `npm run dev -- --log` para que as implementações específicas para motos sejam executadas
-    * Execute `npm run dev -- --eats` para que as implementações específicas para bicicletas sejam executadas
+    * Sem passar nenhum argumento, no console será exibida a seguinte mensagem: `Companhia não informada`
+* Para executar com determinada companhia basta informar o primeiro argumento: `npm run dev -- company`. Substitua company por um dos seguintes valores:
+        * `--u` para Uber
+        * `--nn` para 99
+        * `--l` para Lime
+* Para exexcutar com determinada companhia e tipo de veículo basta informar o segundo parametro: `npm run dev -- --company vehicleType`. Substitua company por um dos valores válidos e vehicleType por um dos seguintes valores:
+    * `--aerial` para veículos aéreos. Avião, helicóptero ou drone, a depender da companhia escolhida
+    * `--land` para veículos terrestres. Carro, moto ou patinete, a depender da companhia escolhida
