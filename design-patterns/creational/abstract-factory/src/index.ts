@@ -1,9 +1,9 @@
-import Client from "./vehicles/client/Client";
-import Company from "./vehicles/consts/Company";
-import VehicleTypes from "./vehicles/consts/VehicleTypes";
-import NineNineTransport from "./vehicles/factorys/NineNineTransport";
-import UberTransport from "./vehicles/factorys/UberTransport";
-import ITransportFactory from "./vehicles/factorys/interfaces/ITransportFactory";
+import Client from "./client/Client";
+import Company from "./consts/Company";
+import VehicleTypes from "./consts/VehicleTypes";
+import NineNineTransport from "./factorys/NineNineTransport";
+import UberTransport from "./factorys/UberTransport";
+import ITransportFactory from "./factorys/interfaces/ITransportFactory";
 
 declare var process: { argv: string | string[]; };
 let factory: ITransportFactory;

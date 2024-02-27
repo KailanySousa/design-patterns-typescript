@@ -1,7 +1,7 @@
-import Helicopter from "../aerial/Helicopter";
-import IAircraft from "../aerial/interfaces/IArcraft";
-import Motorcycle from "../land/Motorcycle";
-import ILandVehicle from "../land/interfaces/ILandVehicle";
+import Helicopter from "../vehicles/aerial/Helicopter";
+import IAircraft from "../vehicles/aerial/interfaces/IArcraft";
+import Motorcycle from "../vehicles/land/Motorcycle";
+import ILandVehicle from "../vehicles/land/interfaces/ILandVehicle";
 import ITransportFactory from "./interfaces/ITransportFactory";
 
 export default class NineNineTransport implements ITransportFactory {

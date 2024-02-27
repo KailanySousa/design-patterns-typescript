@@ -1,7 +1,7 @@
-import Airplane from "../aerial/Airplane";
-import IAircraft from "../aerial/interfaces/IArcraft";
-import Car from "../land/Car";
-import ILandVehicle from "../land/interfaces/ILandVehicle";
+import Airplane from "../vehicles/aerial/Airplane";
+import IAircraft from "../vehicles/aerial/interfaces/IArcraft";
+import Car from "../vehicles/land/Car";
+import ILandVehicle from "../vehicles/land/interfaces/ILandVehicle";
 import ITransportFactory from "./interfaces/ITransportFactory";
 
 export default class UberTransport implements ITransportFactory {

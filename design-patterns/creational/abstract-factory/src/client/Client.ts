@@ -1,7 +1,7 @@
-import IAircraft from "../aerial/interfaces/IArcraft";
+import IAircraft from "../vehicles/aerial/interfaces/IArcraft";
 import Vehicle from "../consts/VehicleTypes";
 import ITransportFactory from "../factorys/interfaces/ITransportFactory";
-import ILandVehicle from "../land/interfaces/ILandVehicle";
+import ILandVehicle from "../vehicles/land/interfaces/ILandVehicle";
 
 export default class Client {
 
