@@ -1,4 +1,5 @@
 export default {
-    UBER: '--uber',
-    NINENINE: '--ninenine'
+    UBER: '--u',
+    NINENINE: '--nn',
+    LIME: '--l'
 }
