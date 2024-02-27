@@ -1,11 +1,22 @@
 # Factory Method 
-Neste padrão, as chamadas diretas (new) de construção de objetos da classe são substituidas por um método intermediário que fará o papel de **fábrica**.
+Padrão que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
 
-Este método fábrica (Factory Method), será responsável por controlar como criar os objetos que estendem a sua classe que serão instanciados. Os objetos retornados pelos método são chamados **produtos** ou **Classes Concretas**.
+## Problema
 
-## Exemplo aplicado
+Neste caso, um sistema foi criado com o objetivo de realizar trajetos com dois veículos diferentes: carro e moto.
+O foco ao utilizar o padrão Factory Method é fazer com que seja possível expandir o código, adicionando outros veículos sem alterar o ódigo existente.
 
-Neste exemplo, o problema a ser resolvido é fazer com que a aplicação não fique amarrada a uma única classe (por exemplo, Car) para que no futuro seja possível estender os recursos e aplicar novos meios de transportes que possuem suas próprias particularidades.
+## Solução
+
+1. Para isso, foram criadas interfaces para cada tipo de veículo: aéreo e terrestre, levando em consideração que os veículos de cada grupo possuem os mesmos comportamentos.
+
+2. Também foi criada uma interface para que cada companhia a implemente e levando em consideração que cada companhia trabalha com um veículo terrestre e um veículo aéreo, essa interface define comportamentos para criar esses veículos.
+
+3. Cada companhia, que possui sua respectiva classe, é responsável por criar seus veículos, seja ele terrestre e/ou aéreo.
+
+4. Por fim, a classe Client é responsável por iniciar a rota de acordo com o factory (companhia passada). Um adicional ao projeto foi dar a opção ao Client de iniciar a rota de apenas uma veículo ou iniciar de dois.
+
+o problema a ser resolvido é fazer com que a aplicação não fique amarrada a uma única classe (por exemplo, Car) para que no futuro seja possível estender os recursos e aplicar novos meios de transportes que possuem suas próprias particularidades.
 
 ## Como executar
 

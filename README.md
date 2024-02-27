@@ -32,6 +32,7 @@ Este repositório possui conteúdos relacionados a cursos sobre Design Patterns 
 
 * [Creational patterns (Padrões de projeto criacionais)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational)
     * [Factory Method](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/factory-method)
+    * [Abstract Factory](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/abstract-factory)
 * Strucutal patterns (Padrões de projeto estruturais)
 * Behavioral patterns (Padrões de projeto comportamentais)
 

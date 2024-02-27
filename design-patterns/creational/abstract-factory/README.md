@@ -4,7 +4,7 @@ Padrão de projeto criacional que permite que você produza famílias de objetos
 
 ## Problema
 
-Neste caso, foi criado um sistema com o objetivo de realizar um trajeto com duas familias de veiculos: aéreos e terrestres.
+Neste caso, um sistema foi criado com o objetivo de realizar um trajeto com duas familias de veiculos: aéreos e terrestres.
 Na familia de veículos aéreos temos: avião, helicóptero e drone. Já na familia de veículos terrestres temos: carro, moto e patinete.
 
 Também existem companhias que realizam duas opções de trajeto, um utilizando veículo aéreo e outro utilizando veículo terrestre, com a diferença dos veículos que são utilizados.
@@ -12,7 +12,7 @@ Também existem companhias que realizam duas opções de trajeto, um utilizando 
     * 99: utiliza moto e helicóptero 
     * Lime: utiliza patinete e drone
 
-O objetivo é fazer com que seja possível expandir o código, adicionando novas companhia e tipos de veículos sem alterar o ódigo existente.
+O foco ao utilizar o padrão Abstract Factory é fazer com que seja possível expandir o código, adicionando novas companhia e tipos de veículos sem alterar o ódigo existente.
 
 ## Solução
 
@@ -20,7 +20,9 @@ O objetivo é fazer com que seja possível expandir o código, adicionando novas
 
 2. Também foi criada uma interface para que cada companhia a implemente e levando em consideração que cada companhia trabalha com um veículo terrestre e um veículo aéreo, essa interface define comportamentos para criar esses veículos.
 
-3. Por fim, a classe Client é responsável por iniciar a rota de acordo com o factory (companhia passada). Um adicional ao projeto foi dar a opção ao Client de iniciar a rota de apenas uma veículo ou iniciar de dois.
+3. Cada companhia, que possui sua respectiva classe, é responsável por criar seus veículos, seja ele terrestre e/ou aéreo.
+
+4. Por fim, a classe Client é responsável por iniciar a rota de acordo com o factory (companhia passada). Um adicional ao projeto foi dar a opção ao Client de iniciar a rota de apenas uma veículo ou iniciar de dois.
 
 
 ## Como executar
