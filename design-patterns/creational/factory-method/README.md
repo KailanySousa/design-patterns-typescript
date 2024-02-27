@@ -18,7 +18,11 @@ Com isso, no index.js, vemos que a depender do tipo de transporte informado, os 
 ## Desafio
 Além de permitir que transportes sejam feitos por carros e motos, o sistema também deverá permitir transportes feitos com bicicletas.
 
-## Solução
-
 ## Como executar
-[Em contrução]
+
+* Na raiz da pasta ***factory-method***, executar `npm i`
+* Depois, para rodar o projeto, executar `npm run dev`
+    * Sem passar nenhum argumento, no console será exibida a seguinte mensagem: `Informe o tipo de entrega`
+    * Execute `npm run dev -- --uber` para que as implementações específicas para carros sejam executadas
+    * Execute `npm run dev -- --log` para que as implementações específicas para motos sejam executadas
+    * Execute `npm run dev -- --eats` para que as implementações específicas para bicicletas sejam executadas
