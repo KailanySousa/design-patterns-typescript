@@ -2,6 +2,7 @@ import IAircraft from "../vehicles/aerial/interfaces/IArcraft";
 import Vehicle from "../consts/VehicleTypes";
 import ITransportFactory from "../factorys/interfaces/ITransportFactory";
 import ILandVehicle from "../vehicles/land/interfaces/ILandVehicle";
+import VehicleTypes from "../consts/VehicleTypes";
 
 export default class Client {
 
@@ -13,9 +14,15 @@ export default class Client {
         this.aircraft = factory.createTransportAircraft();
     }
 
-    startRoute(): void {
-        this.vehicle.startRoute();
-        this.aircraft.startRoute();
+    startRoute(vehicleType: string[]): void {
+        if (vehicleType.includes(VehicleTypes.AERIAL)) {
+            this.startRouteAircraft();
+        } else if (vehicleType.includes(VehicleTypes.LAND)) {
+            this.startRouteVehicle();
+        } else {
+            this.startRouteVehicle();
+            this.startRouteAircraft();
+        }
     }
 
     startRouteVehicle(): void {

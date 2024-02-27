@@ -9,6 +9,8 @@ import ITransportFactory from "./factorys/interfaces/ITransportFactory";
 declare var process: { argv: string | string[]; };
 let factory: ITransportFactory;
 
+let error: boolean;
+
 if (process.argv.includes(Company.UBER)) {
     factory = new UberTransport();
 } else if (process.argv.includes(Company.NINENINE)) {
@@ -17,14 +19,10 @@ if (process.argv.includes(Company.UBER)) {
     factory = new LimeTransport();
 } else {
     console.error('Companhia não informada');
+    error = true;
 }
 
-const client = new Client(factory);
-
-if (process.argv.includes(VehicleTypes.AERIAL)) {
-    client.startRouteAircraft();
-} else if (process.argv.includes(VehicleTypes.LAND)) {
-    client.startRouteVehicle();
-} else {
-    client.startRoute();
+if (!error) {
+    const client = new Client(factory);
+    client.startRoute(process.argv);
 }
