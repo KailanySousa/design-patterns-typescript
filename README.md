@@ -9,11 +9,11 @@ Os padrões de projeto são soluções típicas para problemas comuns no projeto
 
 Dessa forma, com o intuito de aprender mais sobre esse assunto, busquei alguns cursos que tratassem desse tema de uma maneira bem didática, trazendo problemas do mundo real e exemplos de aplicações para resolver esses problemas utilizando esses padrões.
 
-* Os **padrões de design criacionais** fornecem vários mecanismos de criação de objetos, que aumentam a flexibilidade e a reutilização do código existente.
+* Os **padrões de design criacionais** fornecem vários mecanismos de criação de objetos, que aumentam a flexibilidade e a reutilização do código existente. São eles: ***Factory Method***, ***Abstract Factory***, ***Builder***, ***Prototype*** e ***Singleton***. 
 
-* Os **padrões de projeto estruturais** explicam como montar objetos e classes em estruturas maiores, mantendo essas estruturas flexíveis e eficientes.
+* Os **padrões de projeto estruturais** explicam como montar objetos e classes em estruturas maiores, mantendo essas estruturas flexíveis e eficientes. São eles: ***Adapter***, ***Bridge***, ***Composite***, ***Decorator***, ***Facade***, ***Flyweight*** e ***Proxy***.
 
-* Os **padrões de projeto comportamentais** preocupam-se com algoritmos e com a atribuição de responsabilidades entre objetos.
+* Os **padrões de projeto comportamentais** preocupam-se com algoritmos e com a atribuição de responsabilidades entre objetos. São eles: ***Chainf of responsability***, ***Command***, ***Iterator***, ***Meaditor***, ***Memento***, ***Observer***, ***State***, ***Strategy***, ***Template Method*** e ***Visitor***.
 
 ## Sobre o projeto
 
@@ -29,7 +29,17 @@ Este repositório possui conteúdos relacionados a cursos sobre Design Patterns 
 
 ## Estrutura do projeto
 
-[Em construção]
+### Princípio SOLID
+
+* [S - Princípio de responsabilidade única (SRP - Single Responsability Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/00-S-RP)
+
+* [O - Princípio aberto para extensão/fechado para alteração (OCP - Open/Closed Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/01-O-CP)
+
+* [L - Princípio da substituição de Liskov (LSP - Liskov Substituition Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/02-L-SP)
+
+* [I - Princípio da segreção de interface (ISP - Interface Segragation Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/03-I-SP)
+
+* [D - Princípio da inversao de dependencia (DIP - Dependency Inversion Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/04-D-IP)
 
 ## Tecnologias utilizadas
 
