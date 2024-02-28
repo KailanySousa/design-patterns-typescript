@@ -3,6 +3,7 @@ import CheckPermissionMiddleware from "./middlewares/CheckPermissionMiddleware";
 import CheckUserMiddleware from "./middlewares/CheckUserMiddleware";
 import Middleware from "./middlewares/Middleware";
 import Server from "./servers/Server";
+import CheckWeakPassword from "./middlewares/CheckWeakPasswordMiddleware";
 
 declare var process;
 
@@ -38,6 +39,7 @@ function setPromptQuestions() {
 const middleware: Middleware = new CheckUserMiddleware();
 
 middleware.linkWith(new CheckPermissionMiddleware());
+middleware.linkWith(new CheckWeakPassword());
 
 server.setMiddleware(middleware);
 
