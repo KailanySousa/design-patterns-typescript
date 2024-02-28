@@ -18,24 +18,42 @@ Este repositório possui conteúdos relacionados a cursos sobre Design Patterns 
 
 ### Princípios SOLID
 
-* [S - Princípio de responsabilidade única (SRP - Single Responsability Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/00-S-RP)
+* [Single Responsability Principle](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/00-S-RP)
 
-* [O - Princípio aberto para extensão/fechado para alteração (OCP - Open/Closed Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/01-O-CP)
+* [Open/Closed Principle](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/01-O-CP)
 
-* [L - Princípio da substituição de Liskov (LSP - Liskov Substituition Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/02-L-SP)
+* [Liskov Substituition Principle](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/02-L-SP)
 
-* [I - Princípio da segreção de interface (ISP - Interface Segragation Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/03-I-SP)
+* [Interface Segragation Principle](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/03-I-SP)
 
-* [D - Princípio da inversao de dependencia (DIP - Dependency Inversion Principle)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/04-D-IP)
+* [Dependency Inversion Principle](https://github.com/KailanySousa/design-patterns-typescript/tree/main/solid-principle/04-D-IP)
 
 ### [Design Patterns](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns)
 
-* [Creational patterns (Padrões de projeto criacionais)](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational)
+* [Creational patterns](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational)
     * [Factory Method](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/factory-method)
     * [Abstract Factory](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/abstract-factory)
+    * Prototype
     * [Builder](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/builder)
-* Strucutal patterns (Padrões de projeto estruturais)
-* Behavioral patterns (Padrões de projeto comportamentais)
+* [Structural patterns](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural)
+    * [Adapter](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/adapter)
+    * [Bridge](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/bridge)
+    * Composite
+    * Decorator
+    * [Facade](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/facade)
+    * Flyweight
+    * Proxy
+* [Behavioral patterns](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/behavioral)
+    * [Chain of Responsability](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/behavioral/chain-of-responsability)
+    * Command
+    * Iterator
+    * Mediator
+    * Memento
+    * [Observer](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/behavioral/observer)
+    * State
+    * [Strategy](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/behavioral/strategy)
+    * [Template Method](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/behavioral/template-method)
+    * Visitor
 
 ## Tecnologias utilizadas
 

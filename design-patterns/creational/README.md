@@ -6,4 +6,4 @@ Os **padrões de design criacionais** fornecem vários mecanismos de criação d
 * [Abstract Factory](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/abstract-factory)
 * [Builder](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/builder)
 * Prototype
-* Singleton
+* [Singleton](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/singleton)
