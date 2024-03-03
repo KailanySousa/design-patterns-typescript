@@ -40,7 +40,7 @@ Este repositório possui conteúdos relacionados a cursos sobre Design Patterns 
     * [Adapter](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/adapter)
     * [Bridge](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/bridge)
     * [Composite](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/composite)
-    * Decorator
+    * [Decorator](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/decorator)
     * [Facade](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/facade)
     * Flyweight
     * Proxy
