@@ -34,7 +34,7 @@ Este repositório possui conteúdos relacionados a cursos sobre Design Patterns 
     * [Factory Method](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/factory-method)
     * [Abstract Factory](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/abstract-factory)
     * [Builder](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/builder)
-    * [Prototype] (https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/prototype)
+    * [Prototype](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/prototype)
     * [Singleton](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/creational/singleton)
 * [Structural patterns](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural)
     * [Adapter](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/adapter)
