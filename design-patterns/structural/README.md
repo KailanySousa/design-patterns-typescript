@@ -8,4 +8,4 @@ Os **padrões de design estruturais** explicam como montar objetos e classes em 
 * [Decorator](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/decorator)
 * [Facade](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/facade)
 * [Flyweight](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/flyweight)
-* Proxy
+* [Proxy](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/proxy)

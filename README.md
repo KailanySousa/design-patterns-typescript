@@ -43,7 +43,7 @@ Este repositório possui conteúdos relacionados a cursos sobre Design Patterns 
     * [Decorator](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/decorator)
     * [Facade](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/facade)
     * [Flyweight](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/flyweight)
-    * Proxy
+    * [Proxy](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/proxy)
 * [Behavioral patterns](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/behavioral)
     * [Chain of Responsability](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/behavioral/chain-of-responsability)
     * Command
