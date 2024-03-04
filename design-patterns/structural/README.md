@@ -7,5 +7,5 @@ Os **padrões de design estruturais** explicam como montar objetos e classes em 
 * [Composite](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/composite)
 * [Decorator](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/decorator)
 * [Facade](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/facade)
-* Flyweight
+* [Flyweight](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/structural/flyweight)
 * Proxy
