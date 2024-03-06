@@ -3,7 +3,7 @@
 Os **padrões de projeto comportamentais** preocupam-se com algoritmos e com a atribuição de responsabilidades entre objetos. São eles:
 
 * [Chain of Responsability](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/behavioral/chain-of-responsability)
-* Command
+* [Command](https://github.com/KailanySousa/design-patterns-typescript/tree/main/design-patterns/behavioral/command)
 * Iterator
 * Mediator
 * Memento
